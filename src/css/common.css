@@ -43,7 +43,7 @@ button[data-start] {
 
 .timer {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 70px;
 }
