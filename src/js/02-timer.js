@@ -59,6 +59,10 @@ function convertMs(ms) {
   const minutes = addLeadingZero(Math.floor(((ms % day) % hour) / minute));
   const seconds = addLeadingZero(Math.floor((((ms % day) % hour) % minute) / second));
 
+  if (ms <= 0) {
+    clearInterval(intervalId);
+  }
+
   return { days, hours, minutes, seconds };
 }
 
