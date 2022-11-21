@@ -1,16 +1,16 @@
 {
-  "name": "parcel-project-template",
+  "name": "ColorSwitcher-CountdownTimer-PromiseGenerator",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://mmeTanya.github.io/goit-js-hw-09",
+  "homepage": "https://mmeTanya.github.io/ColorSwitcher-CountdownTimer-PromiseGenerator",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /ColorSwitcher-CountdownTimer-PromiseGenerator/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmeTanya/goit-js-hw-09.git"
+    "url": "git+https://github.com/mmeTanya/ColorSwitcher-CountdownTimer-PromiseGenerator.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
